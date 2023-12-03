@@ -1,0 +1,12 @@
+#footer{
+    background-color: orange;
+    height: 150px;
+    width: 100%;
+}
+.text{
+    margin-left:670px ;
+    line-height:2;
+}
+span{
+    color: red;
+}

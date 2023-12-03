@@ -1,0 +1,56 @@
+
+header{
+    position:fixed;
+    top:0%;
+    left: 0%;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(18, 10, 10);
+    opacity: 60%;
+    align-items: center;
+    transition: 0.5s;
+}
+.logo{
+    color: #e13434; /*couleur de esto*/
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration:double;
+    transition: 5s;
+}
+.logo:hover{
+    transform: rotatey(360deg);
+}
+.navbar{
+    display: flex;
+    position: relative;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+li{
+    list-style:none; 
+}
+ a{
+   color: #e13434; /*couleur de la navbar*/
+    text-decoration: none;
+    margin-left: 40px;  /*l'espace entre chaque element de la navbar*/
+    font-weight: 700;  /*epesseur de l'ecriture */
+}
+.btn-reserv{
+    padding: 10px 20px;
+    background: #fb911f;
+    margin-top:-10px ;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.btn-reserv:hover{
+    background: #d87710;
+    transition:ease-out;
+}
+header .navbar li a:hover{
+    color:#fb911f;
+    border-bottom: 3px solid #fb911f; /*l'epesseur de la marge en dessous de la anv bar*/
+}

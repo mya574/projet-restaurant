@@ -1,0 +1,81 @@
+#specialite{
+    height: 100vh;
+    margin-top: 40px;
+
+}
+.titrem{
+    margin-left: 550px;
+}
+.titre-texte{
+    margin-left: 140px;
+}
+.contenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.boxx{
+    width: 350px;
+    margin: 20px;
+    border: 20px solid #fff;
+    box-shadow: 20px 15px 23px rgb(0, 2, 0); /*les ombres des box */
+    transition: 0.4s;
+}
+.boxx:hover{
+    transform:translateY(-40px);
+    transform:scale(1.2);
+    transition: 0.4s;
+}
+.imbox1{
+    background-image: url('../assets/dessert.png');
+    position: relative;
+    width: 100%;
+    height:220px;
+}
+.imbox2{
+    background-image: url('../assets/saumon2.png');
+    position: relative;
+    width: 100%;
+    height:220px;
+    background-repeat: no-repeat;
+}
+.imbox3{
+    background-image: url('../assets/pates.png');
+    position: relative;
+    width: 100%;
+    height:220px;
+}
+.imbox4{
+    background-image: url('../assets/viande.png');
+    position: relative;
+    width: 100%;
+    height:220px;
+}
+.imbox5{
+    background-image: url('../assets/suchi.png');
+    position: relative;
+    width: 100%;
+    height:220px;
+}
+.imbox6{
+    background-image: url('../assets/orientale.png');
+    position: relative;
+    width: 100%;
+    height:220px;
+}
+
+#imbox{
+    
+    position:relative ;
+    top: 0;
+    left: 0;
+    width:100% ;
+    height: 200px;
+   
+}
+.imtext{
+    text-align: center;
+    font-weight: 300px;
+    color: #100808;
+}

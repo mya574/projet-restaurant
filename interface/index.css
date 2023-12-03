@@ -1,0 +1,64 @@
+.interface{
+    background-image:url('../../components/assets/resto.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;    /*l'espace que l'elément occupe*/
+    min-height: 100vh; /*hauteur*/
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    top: 10;
+}
+.btn12{
+    max-width: 100%; /*sa mets les deux boutons en centre*/
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    margin-right: 9%;
+    margin-top:300px;
+} /*pour que sa soit écrit au milieu de la page */
+.interface .contenu .titre{
+    color:rgb(234, 165, 16);
+    font-size :3em; 
+    text-transform: capitalize;  /*pour que le bonne apettie soit ecrit au milieu en noir et en gras*/
+    justify-content: center;
+    display: flex;
+}
+.h{ /*stylise le paragrapg en dessous du bonne apettie*/
+    color:rgb(240, 240, 240);
+    font-size: 1.2em;
+    display: flex;
+    text-align:center; /*pour que tout se mets au centre */
+}
+.btn1{
+    font-size:1em ;
+    color:white ; /*couleur et taille de l'ecriture de reserver*/
+    background: #fb911f;
+    padding: 10px 20px; /*largeure et longeure des boxe */
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+.btn2{
+    font-size:1em ;
+    color:white ;
+    background: #584299;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+.btn1:hover{
+    letter-spacing: 4px; /*animation du bouton*/
+}
+.btn2:hover{
+    letter-spacing: 4px; /*animation du bouton*/
+}
